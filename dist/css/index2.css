@@ -1,0 +1,59 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  font-size: 16px;
+  font-family: "Microsoft YaHei"; }
+
+body {
+  background: #EDEDED; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #BFBFC0; }
+
+img {
+  display: block; }
+
+section {
+  background: #fff; }
+
+/*==============字体================*/
+/*字体白色*/
+.c-white {
+  color: #fff; }
+
+/*字体黑色*/
+.c-black {
+  color: #000; }
+
+/*字体加粗*/
+.f-bold {
+  font-weight: bold; }
+
+/*==============边框================*/
+.b-r {
+  border: 1px solid #ccc;
+  border-radius: 10px; }
+
+.b-radius {
+  border-radius: 10px; }
+
+/*==============外边距===============*/
+.m-top-25 {
+  margin-top: 25px; }
+
+/*=============a标签的阴影=================*/
+.a-shadow {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 35px #ddd inset; }

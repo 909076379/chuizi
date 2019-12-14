@@ -1,0 +1,721 @@
+@charset "utf-8";
+body{
+    min-width: 1220px;
+}
+.cz_top{
+    position: relative;
+    width:100%;
+    height: 45px;
+    line-height:45px;
+    background: #28292B;
+}
+.cz_top h1{
+    float:left;
+    width:20px;
+    height: 20px;
+    margin-left:22px;
+    margin-top:12.5px;
+}
+.cz_top h1 a{
+    display: block;
+    width:100%;
+    height: 100%;
+    color:#E5E5E5;
+}
+.cz_top h1 a img{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+.cz_top .top_list{
+    float:left;
+    min-width:800px;
+    height: 100%;
+    margin-left: 70px;
+}
+.cz_top .top_list ul{
+    display: flex;
+}
+.cz_top .top_list ul li{
+    float: left;
+    padding:0 20px;
+    font-size:12px;
+}
+.cz_top .top_list ul li a{
+    color:#BFBFC0;
+    text-decoration: none;
+}
+.cz_top .top_list ul li:nth-child(1) a{
+    color:#fff;
+    font-weight: 700;
+}
+
+.cz_top .top_list ul li a:hover{
+    color:#fff;
+}
+.cz_top .top_sign{
+    float:right;
+    width:80px;
+    margin-right:25px;
+}
+.cz_top .top_sign p{
+    float:left;
+    width:20px;
+    height: 20px;
+    padding:0 10px;
+    color:#BFBFC0;
+    cursor:pointer;
+}
+.cz_top .top_sign p i{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+/*head*/
+.cz_head_nav{
+    width:100%;
+    height: 74px;
+    line-height: 74px;
+    box-shadow: 0 1px 15px #fff;
+    background-color: #fff;
+}
+.h-list{
+    float:left;
+}
+.h-list ul li{
+    float: left;
+    margin-left:25px;
+    font-size: 14px;
+}
+.h-list ul li:nth-child(1){
+  
+    margin-left:20px;
+   
+}
+.h-list ul li a{
+    color:#4c4c4c;
+}
+.h-sear{
+    position: relative;
+    float:right;
+    margin-right:60px;
+}
+.h-sear input{
+    width: 332px;
+    height: 35px;
+    border:1px solid #ccc;
+    border-radius:17px;
+    text-indent:40px;
+    outline:none;
+}
+.h-sear i{
+    position: absolute;
+    top:19px;
+    left:9px;
+    width:30px;
+    height: 40px;
+    font-size: 20px;
+    cursor:pointer;
+}
+.h-sear i::before{
+    position:absolute;
+    left:3px;
+    top:-15px;
+}
+.h-sear p{
+    position:absolute;
+    right:6px;
+    top:28.5px;
+    width:100px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 8px;
+    color: #8aad37;
+    border: 1px solid rgba(138,173,55,.6);
+    background: #f7fae1;
+    font-weight: 700;
+    text-align: center;
+    
+}
+/*网页主体部分*/
+.cz_body{
+    width:1220px;
+    height: auto;
+    margin:auto;
+}
+/*轮播图*/
+.cz_banner{
+    width:100%;
+    height: 498px;
+    margin-top:25px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    overflow: hidden;
+}
+.cz_banner .swiper-container{
+    width:100%;
+    height: 100%;
+}
+.cz_banner .swiper-container .swiper-slide a{
+    display: block;
+    width:100%;
+    height: 100%;
+    margin-top:-27px;
+}
+.cz_banner .swiper-container .swiper-slide img{
+    width: 100%;
+    height: 552px;
+}
+/*cz_intro*/
+.cz_intro{
+    width:100%;
+    height: 202px;
+    margin-top:25px;
+    border-radius:10px;
+    overflow: hidden;
+}
+.cz_phone{
+    height: 100%;
+}
+.cz_phone ul{
+    display: flex;
+    width:100%;
+    height: 100%;
+}
+.cz_phone ul li{
+    position: relative;
+    flex:1;
+    height: 100%;
+    border-right:1px solid #eee;
+}
+.cz_phone ul li a{
+    position: absolute;
+    display: none;
+    z-index: 99;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    -webkit-box-shadow:inset 0 0 35px rgba(0,0,0,.1);
+    box-shadow:inset 0 0 35px rgba(0,0,0,0.1);
+}
+.cz_phone ul li:hover a{
+    display: block;
+}
+.cz_phone ul li img{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+/*热门商品部分*/
+.cz_hotGoods{
+    width:100%;
+    margin-top:25px;
+    border:1px solid #ccc;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.g-goods{
+
+}
+.g-top{
+    width:100%;
+    height: 60px;
+    border-bottom:1px solid #ccc;
+    box-sizing: border-box;
+}
+.g-top h2{
+    float:left;
+    height:100%;
+    line-height: 60px;
+    padding:0 25px;
+    font-size: 18px;
+    color:#787878;
+}
+.g-top p{
+    float:right;
+    height: 100%;
+    margin-right:22px;
+    line-height: 60px;
+}
+.g-top p i{
+    margin:0 5px;
+    font-size: 26px;
+    color:#787878;
+    cursor: pointer;
+}
+.g-list{
+    width:100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.g-list ul{
+    display: flex;
+    width:100%;
+}
+.g-list ul li{
+    position: relative;
+    flex:1;
+    width:305px;
+    height:430px;
+    padding-top:40px;
+    border-right:1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+.g-list ul li:last-child{
+    border:none;
+}
+.g-list ul li .goodscon{
+    width:100%;
+    height: 100%;
+}
+.swiper-container{
+    width:100%;
+    height: 100%;
+}
+.g-list .swiper-container .swiper-pagination{
+    bottom:75px;
+}
+.g-list .swiper-container .swiper-pagination span{
+    position: relative;
+}
+.g-list .swiper-container .swiper-pagination span:nth-child(1){
+    background: #000;
+}
+.g-list .swiper-container .swiper-pagination span:nth-child(2){
+    background: red;
+}
+.g-list .swiper-container .swiper-pagination span:nth-child(3){
+    background: blue;
+}
+.g-list .swiper-container .swiper-pagination span:nth-child(4){
+    background: #eee;
+}
+.swiper-container .swiper-pagination span::before{
+    position: absolute;
+    left:-3px;
+    top:-3px;
+    width:10px;
+    height: 10px;
+    padding:1px;
+    border:1px solid #aaa;
+    border-radius: 50%;
+    content:"";
+}
+
+.goods-link{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    bottom:115px;
+}
+.goods-link p:nth-child(1) a{
+    font-weight: 800;
+    font-size: 16px;
+    color:#000;
+}
+.goods-link p:nth-child(2) a{
+    font-size: 12px;
+}
+.goods-price{
+    position: absolute;
+    width:100px;
+    margin-left:-50px;
+    text-align: center;
+    left:50%;
+    bottom:30px;
+    color:red;
+    font-weight: bold;
+    font-size: 18px;
+}
+.whole-link{
+    position: absolute;
+    display: none;
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0;
+    box-shadow: 0 0 35px #ddd inset;
+}
+.whole-link .check-detail{
+    position: absolute;
+    left:50%;
+    bottom:26px;
+    width:100px;
+    height: 30px;
+    margin-left:-50px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    border:1px solid #bbb;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    color:#000;
+}
+.whole-link a{
+    z-index: 9696;
+}
+.g-list ul li:hover .whole-link{
+    display: block;
+}
+.g-list ul li:nth-child(3):hover .goods-price,.g-list ul li:nth-child(4):hover .goods-price{
+    display: none;
+}
+.whole-link .check-detail,.whole-link .check-detail{
+    left:90px;
+}
+.whole-link .sell-out{
+    position: absolute;
+    right:40px;
+    bottom:26px;
+    width:100px;
+    height: 30px;
+    margin-left:-50px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    border:1px solid #bbb;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    color:#000;
+}
+
+/*坚果手机和配件部分*/
+.phone-parts{
+    width: 100%;
+}
+.phone-parts table{
+    width:100%;
+    height: 860px;
+    border-collapse: collapse;
+}
+.phone-parts table{
+    width:100%;
+}
+.phone-parts table td{
+    width:305px;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+}
+.p-pic{
+    position: relative;
+    width:100%;
+    height: 100%;
+}
+.p-pic img{
+    width:100%;
+    height: 100%;
+}
+.p-pic:hover a{
+    display: block;
+}
+.phone-parts tr td{
+    position: relative;
+    width:305px;
+    border-right:none;
+    border-top:none;
+    cursor:pointer;
+}
+.phone-parts tr:nth-child(2) td{
+    border-bottom: none;
+}
+.phone-parts tr td:nth-child(1){
+    border-left:none;
+}
+.phone-parts tr td .goodscon{
+    width:304px;
+    height:430px;
+    padding-top:40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.phone-parts .whole-link{
+    display: none;
+}
+.phone-parts tr td:hover .whole-link{
+    display: block;
+}
+.whole-link .sell-out{
+    position: absolute;
+    right:40px;
+    bottom:26px;
+    width:100px;
+    height: 30px;
+    margin-left:-50px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    border:1px solid #bbb;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    color:#000;
+}
+.phone-parts td .goodscon{
+    width:100%;
+    height: 100%;
+}
+.phone-parts .swiper-container .swiper-pagination{
+    bottom:75px;
+}
+.phone-parts .swiper-container .swiper-pagination span{
+    position: relative;
+}
+.phone-parts .swiper-container .swiper-pagination span:nth-child(1){
+    background: #000;
+}
+.phone-parts .swiper-container .swiper-pagination span:nth-child(2){
+    background: red;
+}
+.phone-parts .swiper-container .swiper-pagination span:nth-child(3){
+    background: blue;
+}
+.phone-parts .swiper-container .swiper-pagination span:nth-child(4){
+    background: #eee;
+}
+.phone-parts tr td:hover .goods-price{
+    display: none;
+}
+.phone-parts tr:nth-child(1) .whole-link .check-detail{
+    left:50%;
+    margin-left:-50px;
+}
+
+.cz_parts .phone-parts tr:nth-child(2) td:nth-child(1) .swiper-pagination,
+.cz_parts .phone-parts tr:nth-child(2) td:nth-child(3) .swiper-pagination,
+.cz_parts .phone-parts tr:nth-child(2) td:nth-child(4) .swiper-pagination{
+    display: none;
+}
+
+/*官方精选配件*/
+.cz_parts .g-top p a:nth-of-type(2){
+    display: inline-block;
+    width:100px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*cz_intro2*/
+.cz_intro2{
+    overflow:hidden;
+}
+
+
+
+
+
+
+.cz_forum_choice .g-top p{
+    width: 100px;
+    height: 35px;
+    margin-top:12px;
+    line-height: 35px;
+    border:1px solid #bbb;
+    border-radius:4px;
+    text-align: center;
+    font-size: 14px;
+    color:#787878;
+    cursor: pointer;
+}
+.form_intro ul{
+    display: flex;
+}
+.form_intro ul li{
+    position: relative;
+    flex:1;
+    padding:28px;
+    border-right:1px solid #ccc;
+}
+.form_intro ul li:nth-child(4){
+    border-right: none;
+}
+.form_intro ul li div{
+    padding-bottom:30px;
+}
+.form_intro ul li div{
+    display: block;
+}
+.form_intro ul li p{
+    width:245px;
+    line-height: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.form_intro ul li p:nth-of-type(1){
+    font-size: 14px;
+    font-weight: bold;
+}
+.form_intro ul li p:nth-of-type(2){
+    font-size: 12px;
+    color:#787878;
+}
+.form_intro ul li p:nth-of-type(3){
+    font-size: 13px;
+    color:#2C8DFB;
+}
+.form_intro ul li:hover .whole-link{
+    display: block;
+}
+
+//网页底部
+.cz_footerbox{
+    margin-top:30px;
+    background-color:#fafafa;
+}
+.cz_footerbox .cz_footer{
+   
+  margin:0 auto;
+    height:300px;
+    background-color:#fafafa;
+     border-bottom:1px solid #e6e6e6;
+
+}
+.cz_footerbox .cz_footer .cz_footer_txt{
+    margin:0 auto;
+    width: 1220px;
+   
+    padding-top: 80px;
+    
+}
+// .cz_footerbox .cz_footer .cz_footer_txt h3{
+//     display:inline-block;
+//     color:black;
+//     font-weight: 700;
+//     font-size: 12px;
+//     padding: 0 30px;
+// }
+.cz_footerbox .cz_footer .cz_footer_txt .cz_footer_ul{
+   
+    height:200px;
+
+    
+
+}
+.cz_footerbox .cz_footer .cz_footer_txt .cz_footer_ul ul{
+    padding: 0;
+    list-style: none;
+
+}
+.cz_footerbox .cz_footer .cz_footer_txt .cz_footer_ul ul li{
+    height:160px;
+    width:50px;
+    float:left;
+    margin-right:80px;
+}
+.cz_footerbox .cz_footer .cz_footer_txt .cz_footer_ul ul li h3{
+    display:inline-block;
+        color:black;
+        font-weight: 700;
+        font-size: 12px;
+        padding: 0 0 30px;
+}
+.cz_footerbox .cz_footer .cz_footer_txt .cz_footer_ul ul li a{
+    display: block;
+    font-size: 12px;
+    padding: 0 0 20px;
+    color:#969696;
+}
+// .cz_footerbox .cz_footer .cz_footer_txt a{
+//     display: block;
+//     font-size: 12px;
+
+// }
+
+.cz_footerbox .cz_footer .cz_footer_dianhua{
+   position: absolute;
+   right:0;
+    display: inline;
+}
+.cz_footerbox .cz_footer .cz_footer_dianhua div{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1;
+    cursor: default;
+    color: #5079d9;
+   
+}
+.cz_footerbox .cz_footer .cz_footer_dianhua h2{
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 1;
+    color:#999;
+    font-weight: 400;
+}
+
+.cz_footerbox .cz_footer .cz_footer_dianhua button{
+    display: block;
+    width: 132px;
+    height: 30px;
+    line-height: 30px;
+    background:#fff;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 15px;
+    text-align: center;
+  
+    border: 1px solid#d0d0d0;
+    border-radius: 5px;
+}
+.cz_footerbox .cz_footer .cz_footer_dianhua button a{
+      color:#5079d9;
+}
+
+
+
+
+
+.cz_footerbox .cz_footer_xxyy{
+    width: 1220px;
+    height:100px;
+    margin:0 auto;
+    padding-top:20px;
+    background-color:#fafafa;
+}
+.cz_footerbox .cz_footer_xxyy .cz_footer_xy{
+    margin-top:20px;
+    font-size:12px;
+    color:#ccc;
+}
+.cz_footerbox .cz_footer_xxyy .cz_footer_a{
+    font-size:12px;
+    color:#969696;
+    border-left:1px solid #ccc;
+    padding-left:10px;
+}
+.cz_footerbox .cz_footer_xxyy .cz_footer_a:hover{
+    font-size:12px;
+    color:blue;
+    border-left:1px solid #ccc;
+    padding-left:10px;
+}
+.cz_footerbox .cz_footer_xxyy .cz_footer_a1{
+    font-size:12px;
+    color:#ccc;
+   
+}
+.cz_footerbox .cz_footer_xxyy .cz_footer_a1:hover{
+    font-size:12px;
+    color:blue;
+    
+
+}
+
+
+
+
+
+
